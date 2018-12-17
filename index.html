@@ -317,14 +317,14 @@
         
           
             <p><a href="https://www.twilio.com/console" target="_blank" rel="external">https://www.twilio.com/console</a></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> twilio.rest <span class="keyword">import</span> Client</div><div class="line"></div><div class="line">account_sid = <span class="string">'AC46e19e3611a2025c984c54210597a021'</span></div><div class="line">auth_token = <span class="string">'afd04656fdf80ce45af187271f8f696f'</span></div><div class="line"></div><div class="line">client = Client(account_sid,auth_token)</div><div class="line"></div><div class="line">message = client.messages.create(body=<span class="string">"this is my first twilio message."</span>,from_=<span class="string">'+14159658996'</span>,to=<span class="string">'+8615992688496'</span>)</div><div class="line">print(message.sid)</div></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> twilio.rest <span class="keyword">import</span> Client</div><div class="line"></div><div class="line">account_sid = <span class="string">'AC******'</span></div><div class="line">auth_token = <span class="string">'af*****'</span></div><div class="line"></div><div class="line">client = Client(account_sid,auth_token)</div><div class="line"></div><div class="line">message = client.messages.create(body=<span class="string">"this is my first twilio message."</span>,from_=<span class="string">'+1在twilio上购买的号码'</span>,to=<span class="string">'+86要发送的号码'</span>)</div><div class="line">print(message.sid)</div></pre></td></tr></table></figure>
 <p>在console 面板中找到SID以及TOKEN</p>
 <ul>
 <li><p>ACCOUNT SID</p>
-<p>AC46e19e3611a2025c984c54210597a021</p>
+<p>AC4**</p>
 </li>
 <li><p>AUTH TOKEN</p>
-<p>afd04656fdf80ce45af187271f8f696f</p>
+<p>afd0**</p>
 <p>​</p>
 </li>
 </ul>
